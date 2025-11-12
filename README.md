@@ -32,6 +32,7 @@ It provides an **interactive GUI** built with Tkinter to visualize each topology
 ### 🖼️ Application Preview  
 screenshot.png
 
+
 ---
 
 ### 🧮 How It Works  
