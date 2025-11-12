@@ -14,20 +14,11 @@ from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from PIL import Image, ImageTk
-from PIL import Image, ImageTk
-
-
 import os
 
-import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-print("Current working directory:", os.getcwd())
-
 img_pil = Image.open("professor.png")
-print("Original size:", img_pil.size)
 img_pil = img_pil.resize((120, 120))
-
-
 
 # --- Tree layout (robust) ---
 def hierarchy_pos(G, root, width=2., vert_gap=0.4, vert_loc=0, xcenter=0.5, pos=None, parent=None):
